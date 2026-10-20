@@ -1,85 +1,84 @@
 # Oracle SQL Database Design & Analysis
 
-A university database design project developed using Oracle SQL and Oracle APEX, focused on relational database modeling, data integrity, and SQL-based analysis.
+A university database coursework project completed using Oracle SQL and Oracle APEX, focusing on relational database design, data integrity and SQL-based analysis.
 
 ## Project Overview
-This project models a university information system by designing a structured database for key academic entities such as students, departments, courses, faculty, enrollment records, and academic performance. The goal is to demonstrate strong understanding of:
 
-- Database design fundamentals
-- Entity relationship modeling
-- Primary and foreign keys
-- Data normalization and integrity rules
-- SQL querying and analysis
-- Reporting and data exploration
+This project involved designing and implementing a relational database for **Creative Content Hub (CCH)**, a fictional business managing digital content, customers, orders, suppliers and deliveries.
 
-## Core Objectives
-- Design a clean and well-structured relational database
-- Represent real-world university relationships through ER modeling
-- Enforce data integrity with constraints and keys
-- Write SQL queries for filtering, joining, grouping, and aggregation
-- Analyze academic data to support decision-making insights
+The aim was to organise related business information, reduce data duplication and demonstrate how SQL queries can support reporting and decision-making.
 
 ## Technologies Used
+
 - Oracle SQL
 - Oracle APEX
-- Relational database modeling
-- SQL queries and data analysis
+- Relational database design
+- Entity Relationship Diagrams (ERD)
+- SQL querying and data analysis
 
 ## Key Features
-- University database schema design
-- ER diagram and relational mapping
-- Use of primary keys and foreign keys
-- Validation of data integrity rules
-- SQL queries for:
-  - filtering records
-  - joining tables
-  - aggregating data
-  - extracting insights
-- Academic data analysis and reporting
 
-## Project Scope
-The database is designed to support common university operations, including:
+### 1. Database Design
 
-- Student management
-- Course and department records
-- Faculty assignment
-- Enrollment tracking
-- Academic performance analysis
-- Reporting of institutional data
+- Modelled business entities and their relationships using an ER diagram.
+- Defined primary and foreign keys to link related records.
+- Applied database normalisation principles, including 1NF, 2NF and 3NF.
+- Documented data integrity rules and constraints.
+
+### 2. Database Implementation
+
+- Developed SQL table definitions using `CREATE TABLE`.
+- Used primary keys, foreign keys and other constraints in the database design.
+- Added sample records using `INSERT INTO`.
+- Explored indexing for database retrieval and performance.
+
+### 3. SQL Queries and Analysis
+
+Wrote SQL queries demonstrating:
+
+- `SELECT` — retrieve records
+- `WHERE` — filter data
+- `COUNT()` — count records
+- `GROUP BY` — summarise records by category
+- `ORDER BY` — sort query results
+- `LIKE` — search for matching text values
+
+## Example Analysis
+
+The coursework explored questions including:
+
+- Which content types occur most frequently?
+- How many text-based content items are available?
+- Which records match a particular keyword?
+- Which video records meet specified duration criteria?
+
+These queries demonstrate how structured data can be summarised to support business reporting.
+
+## Skills Demonstrated
+
+- SQL querying and data retrieval
+- Relational database modelling
+- Data integrity and normalisation
+- Basic aggregation and descriptive analysis
+- Data organisation and technical documentation
+- Analytical problem-solving
 
 ## Repository Contents
-- `Database_sem_2.docx` — project documentation and design details
-- `README.md` — project overview and summary
 
-## Why This Project Is Valuable
-This project demonstrates practical database knowledge that is highly relevant for roles in:
-
-- Data analysis
-- Business intelligence
-- Database administration
-- Application development
-- Data-driven decision making
-
-It shows that I can think in terms of systems, relationships, and reliable data structures, not just simple SQL syntax.
-
-## Example SQL Concepts Covered
-- `CREATE TABLE` statements
-- `PRIMARY KEY` and `FOREIGN KEY` constraints
-- `INSERT` operations for sample data
-- `SELECT` queries with conditions and filters
-- `JOIN` operations across related tables
-- `GROUP BY` and aggregate functions like `COUNT`, `SUM`, and `AVG`
-- Data analysis using SQL
+- `Database_sem_2.docx` — coursework report, database design, SQL examples and screenshots
+- `README.md` — project overview
 
 ## Future Improvements
-- Add actual SQL script files for schema creation and sample data
-- Include screenshots of the Oracle APEX interface
-- Add database diagrams and sample outputs
-- Add a project report with detailed findings and insights
-- Expand the project to include stored procedures or views
+
+- Extract SQL examples into standalone `.sql` files
+- Review and correct SQL statements before publishing executable scripts
+- Provide a clearer ER diagram and query-result screenshots
+- Expand the analysis with additional joins and reporting queries
 
 ## Project Status
-This project is currently presented as an academic database design and analysis portfolio project, suitable for showcasing database and SQL skills on GitHub and in a CV.
+
+Completed university coursework presented as a database design and SQL analysis portfolio project.
 
 ## Conclusion
-This repository reflects a structured approach to database design and analysis using Oracle technologies. It is a solid project for demonstrating foundational database knowledge, analytical thinking, and practical SQL skills.
+
+This project demonstrates foundational SQL and relational database skills developed through university coursework. It is particularly relevant to junior data analysis, business intelligence and database-related roles.
